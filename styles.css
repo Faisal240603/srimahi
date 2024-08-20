@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif, 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: hsl(255, 255, 255);
+    color: rgb(12, 12, 12);
+    margin: 30;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 90px;
+    height: auto;
+    margin-right: 0px;
+}
+
+header .header-text h1 {
+    font-size: 20px; /* Ukuran font untuk "Desa Srimahi" */
+    margin: 0;
+}
+
+header .header-text h2 {
+    font-size: 15px; /* Ukuran font untuk "Kabupaten Bekasi" */
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background-color: #0c1bf0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #0c1bf0;
+}
+
+section {
+    padding: 20px;
+}
+
+#Profil\ Desa, #Transparansi, #Informasi\ Publik {
+    border-bottom: 1px solid #ccc;
+}
